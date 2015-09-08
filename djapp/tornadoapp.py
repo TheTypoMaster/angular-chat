@@ -62,7 +62,7 @@ class ChatConnection(sockjs.tornado.SockJSConnection):
         # Add client to the clients list
         self.participants.add(self)
 
-    # When we recieve message from redis server we go here
+    # When we receive message from redis server we go here
     def redis_message(self, result):
         ''' recieving  message from redis server, 
             convertin it in json format 

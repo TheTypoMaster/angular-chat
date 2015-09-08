@@ -365,7 +365,7 @@ Where:
 
 **from_id** - user who send the message
 
-**to_id** - user who recieve the message
+**to_id** - user who receive the message
 
 
 
